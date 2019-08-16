@@ -21,19 +21,4 @@ public class HanoiSolver {
         return result;
     }
 
-
-    /*
-    :-) you find a hint
-     hanoi recursive algorithm can be found on wikipedia
-     */
-    public static HanoiPillar getIntermediate(HanoiPillar from, HanoiPillar to) {
-        HanoiPillar intermediate = null;
-        for (HanoiPillar pillar : HanoiPillar.values()) {
-            if (!pillar.equals(from) && !pillar.equals(to)) {
-                intermediate = pillar;
-            }
-        }
-        return intermediate;
-    }
-
 }
