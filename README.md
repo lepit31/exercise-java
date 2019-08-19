@@ -1,1 +1,4 @@
-# exercice-java
+# exercise-java
+
+1) Exercise 
+
