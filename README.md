@@ -2,6 +2,10 @@
 
 A single rule : Quote your sources
 
+You can use Intellij IDE Community edition
+https://www.jetbrains.com/idea/download/
+And import this project as a maven project
+
 #### Logs Exercise
 
 Complete method in LogsUtils Class then test with LogsUtilsTest
