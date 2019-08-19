@@ -39,13 +39,13 @@ public class LogsUtilsTest {
 
     @Test
     public void getNbCommonRow() {
-        Assert.assertEquals("Expected Nb common row ",  48,lu.getNbCommonRow(logsA, logsB));
+        Assert.assertEquals("Expected Nb common row ", 48, lu.getNbCommonRow(logsA, logsB));
 
     }
 
     @Test
     public void getNbDistinctRows() {
-        Assert.assertEquals("Expected Nb common row ",  52,lu.getNbCommonRow(logsA, logsB));
+        Assert.assertEquals("Expected Nb common row ", 52, lu.getNbCommonRow(logsA, logsB));
     }
 
     @Test

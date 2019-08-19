@@ -11,20 +11,20 @@ public class LogsUtils {
     }
 
 
-    public RowC rowBToRowC(String rowB)  {
+    public RowC rowBToRowC(String rowB) {
         RowC response = null;
         //TODO implement method
         return response;
     }
 
-    public LogsC logsAToLogsC (LogsA logsA){
+    public LogsC logsAToLogsC(LogsA logsA) {
 
         LogsC result = new LogsC();
         //TODO implement method
         return result;
     }
 
-    public LogsC logsBToLogsC (LogsB logsB){
+    public LogsC logsBToLogsC(LogsB logsB) {
 
         LogsC result = new LogsC();
         //TODO implement method
