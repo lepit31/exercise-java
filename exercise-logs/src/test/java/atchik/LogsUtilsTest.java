@@ -45,15 +45,15 @@ public class LogsUtilsTest {
 
     @Test
     public void getNbDistinctRows() {
-        Assert.assertEquals("Expected Nb common row ", 52, lu.getNbCommonRow(logsA, logsB));
+        Assert.assertEquals("Expected Nb common row ", 152, lu.getNbDistinctRows(logsA, logsB));
     }
 
     @Test
     public void getNbRowsBySeverity() {
-        Assert.assertEquals("Nb ERROR", lu.getNbRowsBySeverity(logsA, logsB, Severity.ERROR), 50);
-        Assert.assertEquals("Nb WARNING", lu.getNbRowsBySeverity(logsA, logsB, Severity.WARNING), 50);
-        Assert.assertEquals("Nb INFO", lu.getNbRowsBySeverity(logsA, logsB, Severity.INFO), 50);
-        Assert.assertEquals("Nb DEBUG", lu.getNbRowsBySeverity(logsA, logsB, Severity.DEBUG), 50);
+        Assert.assertEquals("Nb ERROR", 50, lu.getNbRowsBySeverity(logsA, logsB, Severity.ERROR));
+        Assert.assertEquals("Nb WARNING", 50, lu.getNbRowsBySeverity(logsA, logsB, Severity.WARNING));
+        Assert.assertEquals("Nb INFO", 50, lu.getNbRowsBySeverity(logsA, logsB, Severity.INFO));
+        Assert.assertEquals("Nb DEBUG", 50, lu.getNbRowsBySeverity(logsA, logsB, Severity.DEBUG));
     }
 
     @Test
