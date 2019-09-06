@@ -21,4 +21,6 @@ public class HanoiSolver {
         return result;
     }
 
+    //you can add your private function
+
 }
