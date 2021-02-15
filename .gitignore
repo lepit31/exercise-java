@@ -30,3 +30,6 @@ hs_err_pid*
 /.idea/misc.xml
 /.idea/modules.xml
 /.idea/vcs.xml
+/processTime/processTime.iml
+/.idea/libraries/
+/.idea/
