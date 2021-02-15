@@ -8,6 +8,10 @@ And import this project as a maven project
 
 #### Logs Exercise
 
+Implement the function calculateProcessTime in TestProcessTime
+
+#### Logs Exercise
+
 Complete method in LogsUtils Class then test with LogsUtilsTest
 
 #### Hanoi Exercise
